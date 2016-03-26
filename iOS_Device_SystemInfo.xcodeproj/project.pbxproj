@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8414551CA692B90072FCCF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8414541CA692B90072FCCF /* AssetsLibrary.framework */; };
+		2B8414571CA692C50072FCCF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8414561CA692C50072FCCF /* AudioToolbox.framework */; };
+		2B8414591CA692CE0072FCCF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8414581CA692CE0072FCCF /* CFNetwork.framework */; };
+		2B84145B1CA692D80072FCCF /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84145A1CA692D80072FCCF /* ExternalAccessory.framework */; };
+		2B84145D1CA692E70072FCCF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84145C1CA692E70072FCCF /* SystemConfiguration.framework */; };
+		2B84145F1CA692F30072FCCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B84145E1CA692F30072FCCF /* UIKit.framework */; };
+		2B8414611CA692FC0072FCCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8414601CA692FC0072FCCF /* CoreGraphics.framework */; };
 		2BEF92111CA66790008C9E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92101CA66790008C9E50 /* main.m */; };
 		2BEF92141CA66790008C9E50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92131CA66790008C9E50 /* AppDelegate.m */; };
 		2BEF92171CA66790008C9E50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92161CA66790008C9E50 /* ViewController.m */; };
@@ -15,6 +22,12 @@
 		2BEF921F1CA66790008C9E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEF921D1CA66790008C9E50 /* LaunchScreen.storyboard */; };
 		2BEF922A1CA66790008C9E50 /* iOS_Device_SystemInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92291CA66790008C9E50 /* iOS_Device_SystemInfoTests.m */; };
 		2BEF92351CA66790008C9E50 /* iOS_Device_SystemInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92341CA66790008C9E50 /* iOS_Device_SystemInfoUITests.m */; };
+		2BEF92431CA6772A008C9E50 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEF92421CA6772A008C9E50 /* Security.framework */; };
+		2BEF92461CA67767008C9E50 /* MyKeyChainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92451CA67767008C9E50 /* MyKeyChainManager.m */; };
+		2BEF92491CA677C5008C9E50 /* MyUUIDNanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEF92481CA677C5008C9E50 /* MyUUIDNanager.m */; };
+		2BEF924B1CA67B9C008C9E50 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEF924A1CA67B9C008C9E50 /* CoreTelephony.framework */; };
+		2BEF927C1CA68907008C9E50 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEF927B1CA68906008C9E50 /* NetworkExtension.framework */; };
+		2BEF927E1CA68912008C9E50 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEF927D1CA68912008C9E50 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8414541CA692B90072FCCF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		2B8414561CA692C50072FCCF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2B8414581CA692CE0072FCCF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2B84145A1CA692D80072FCCF /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		2B84145C1CA692E70072FCCF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B84145E1CA692F30072FCCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2B8414601CA692FC0072FCCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2B8414621CA6940E0072FCCF /* iOS_Device_SystemInfo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iOS_Device_SystemInfo.entitlements; sourceTree = "<group>"; };
 		2BEF920C1CA6678F008C9E50 /* iOS_Device_SystemInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Device_SystemInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEF92101CA66790008C9E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BEF92121CA66790008C9E50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,14 @@
 		2BEF92301CA66790008C9E50 /* iOS_Device_SystemInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Device_SystemInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEF92341CA66790008C9E50 /* iOS_Device_SystemInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Device_SystemInfoUITests.m; sourceTree = "<group>"; };
 		2BEF92361CA66790008C9E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEF92421CA6772A008C9E50 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2BEF92441CA67767008C9E50 /* MyKeyChainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyKeyChainManager.h; sourceTree = "<group>"; };
+		2BEF92451CA67767008C9E50 /* MyKeyChainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyKeyChainManager.m; sourceTree = "<group>"; };
+		2BEF92471CA677C5008C9E50 /* MyUUIDNanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUUIDNanager.h; sourceTree = "<group>"; };
+		2BEF92481CA677C5008C9E50 /* MyUUIDNanager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUUIDNanager.m; sourceTree = "<group>"; };
+		2BEF924A1CA67B9C008C9E50 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		2BEF927B1CA68906008C9E50 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		2BEF927D1CA68912008C9E50 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +87,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8414611CA692FC0072FCCF /* CoreGraphics.framework in Frameworks */,
+				2B84145F1CA692F30072FCCF /* UIKit.framework in Frameworks */,
+				2B84145D1CA692E70072FCCF /* SystemConfiguration.framework in Frameworks */,
+				2B84145B1CA692D80072FCCF /* ExternalAccessory.framework in Frameworks */,
+				2B8414591CA692CE0072FCCF /* CFNetwork.framework in Frameworks */,
+				2B8414571CA692C50072FCCF /* AudioToolbox.framework in Frameworks */,
+				2B8414551CA692B90072FCCF /* AssetsLibrary.framework in Frameworks */,
+				2BEF927E1CA68912008C9E50 /* CoreMotion.framework in Frameworks */,
+				2BEF927C1CA68907008C9E50 /* NetworkExtension.framework in Frameworks */,
+				2BEF924B1CA67B9C008C9E50 /* CoreTelephony.framework in Frameworks */,
+				2BEF92431CA6772A008C9E50 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +121,17 @@
 		2BEF92031CA6678F008C9E50 = {
 			isa = PBXGroup;
 			children = (
+				2B8414601CA692FC0072FCCF /* CoreGraphics.framework */,
+				2B84145E1CA692F30072FCCF /* UIKit.framework */,
+				2B84145C1CA692E70072FCCF /* SystemConfiguration.framework */,
+				2B84145A1CA692D80072FCCF /* ExternalAccessory.framework */,
+				2B8414581CA692CE0072FCCF /* CFNetwork.framework */,
+				2B8414561CA692C50072FCCF /* AudioToolbox.framework */,
+				2B8414541CA692B90072FCCF /* AssetsLibrary.framework */,
+				2BEF927D1CA68912008C9E50 /* CoreMotion.framework */,
+				2BEF927B1CA68906008C9E50 /* NetworkExtension.framework */,
+				2BEF924A1CA67B9C008C9E50 /* CoreTelephony.framework */,
+				2BEF92421CA6772A008C9E50 /* Security.framework */,
 				2BEF920E1CA66790008C9E50 /* iOS_Device_SystemInfo */,
 				2BEF92281CA66790008C9E50 /* iOS_Device_SystemInfoTests */,
 				2BEF92331CA66790008C9E50 /* iOS_Device_SystemInfoUITests */,
@@ -101,10 +152,15 @@
 		2BEF920E1CA66790008C9E50 /* iOS_Device_SystemInfo */ = {
 			isa = PBXGroup;
 			children = (
+				2B8414621CA6940E0072FCCF /* iOS_Device_SystemInfo.entitlements */,
 				2BEF92121CA66790008C9E50 /* AppDelegate.h */,
 				2BEF92131CA66790008C9E50 /* AppDelegate.m */,
 				2BEF92151CA66790008C9E50 /* ViewController.h */,
 				2BEF92161CA66790008C9E50 /* ViewController.m */,
+				2BEF92441CA67767008C9E50 /* MyKeyChainManager.h */,
+				2BEF92451CA67767008C9E50 /* MyKeyChainManager.m */,
+				2BEF92471CA677C5008C9E50 /* MyUUIDNanager.h */,
+				2BEF92481CA677C5008C9E50 /* MyUUIDNanager.m */,
 				2BEF92181CA66790008C9E50 /* Main.storyboard */,
 				2BEF921B1CA66790008C9E50 /* Assets.xcassets */,
 				2BEF921D1CA66790008C9E50 /* LaunchScreen.storyboard */,
@@ -207,6 +263,7 @@
 				TargetAttributes = {
 					2BEF920B1CA6678F008C9E50 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JEHZ3ESUU9;
 					};
 					2BEF92241CA66790008C9E50 = {
 						CreatedOnToolsVersion = 7.2;
@@ -272,7 +329,9 @@
 			files = (
 				2BEF92171CA66790008C9E50 /* ViewController.m in Sources */,
 				2BEF92141CA66790008C9E50 /* AppDelegate.m in Sources */,
+				2BEF92491CA677C5008C9E50 /* MyUUIDNanager.m in Sources */,
 				2BEF92111CA66790008C9E50 /* main.m in Sources */,
+				2BEF92461CA67767008C9E50 /* MyKeyChainManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +472,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS_Device_SystemInfo/iOS_Device_SystemInfo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = iOS_Device_SystemInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sww.iOS-Device-SystemInfo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +490,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = iOS_Device_SystemInfo/iOS_Device_SystemInfo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = iOS_Device_SystemInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sww.iOS-Device-SystemInfo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +571,7 @@
 				2BEF923B1CA66790008C9E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BEF923C1CA66790008C9E50 /* Build configuration list for PBXNativeTarget "iOS_Device_SystemInfoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +580,7 @@
 				2BEF923E1CA66790008C9E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BEF923F1CA66790008C9E50 /* Build configuration list for PBXNativeTarget "iOS_Device_SystemInfoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +589,7 @@
 				2BEF92411CA66790008C9E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
